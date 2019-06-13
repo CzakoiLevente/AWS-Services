@@ -18,7 +18,7 @@ It will redirect to RDS Dashboard, you should see `Amazon RDS` on the left.
 
 <br>
 
-1. **RDS Dashboard**
+**1. RDS Dashboard**
 
 If this is the first time to create database, you can just hit button `Create database`...
 
@@ -29,7 +29,7 @@ If this is the first time to create database, you can just hit button `Create da
 
 <br>
 
-2. **Select engine**
+**2. Select engine**
 
 Now you should see the databases listed in squares.
 
@@ -41,7 +41,7 @@ Now you should see the databases listed in squares.
 
 <br>
 
-3. **Specify DB details**
+**3. Specify DB details**
 
 you should see something like this:
 
@@ -61,7 +61,7 @@ Scroll down for "Settings pane" and set:
 
 <br>
 
-4. **Configure advanced settings**
+**4. Configure advanced settings**
 
 * **Network & Security**
 
