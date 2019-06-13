@@ -18,9 +18,7 @@ It should display the AWS Management Console "dashboard".
 
 Type in the searchbar:
 
-```
-"s3"
-```
+```s3```
 
 hit Enter
 
