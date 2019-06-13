@@ -70,13 +70,13 @@ The window will disappear and the page will redirect you to bucket list.
 
 <br>
 
-
 ### Upload file to bucket
 
 Click on the bucket you wish to upload your html to.
 
 To upload file hit button "Upload".
 A new window will pop up.
+
 
 **Steps:**
 
