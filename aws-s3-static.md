@@ -4,13 +4,19 @@ Amazon Simple Storage Service is storage for the Internet. It is designed to mak
 
 For more info, please visit [this sie](https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html)
 
+<br>
+
+
 #### Prerequisites
 
  - AWS account 
  - static HTML file
 
 
-## Create bucket for sevring stativ file
+<br>
+
+
+## Create bucket for sevring static file
 
 Log into AWS console
 
