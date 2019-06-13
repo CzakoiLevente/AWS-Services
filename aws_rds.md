@@ -100,6 +100,13 @@ Type:
 $ mysql -h mysql–test-instance1.123456789012.us-east-1.rds.amazonaws.com -P 3306 -u mymasteruser -p
 ```
 
+explained...
+
+```
+$ mysql -h <url> -P <port> -u <user> -p
+```
+
+
 if succeded, you should see:
 
 ```
