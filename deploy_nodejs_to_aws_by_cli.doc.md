@@ -4,7 +4,7 @@
 
 #### Install EB CLI
 To install EB CLI to your computer for Window, macOS, Linux, or virtualenv, click on the link [link](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).
-
+<br>
 #### Get Access key and Secret access key
  - Log into aws console, go to IAM Dashboard. (in AWS Management Console type in the search bar: IAM)
 
@@ -15,7 +15,7 @@ To install EB CLI to your computer for Window, macOS, Linux, or virtualenv, clic
  - Go to Security credential tab
 
  - Hit "Create access key" button (pops new window with credentials)
-
+<br>
 ## Set up your application
 
   - Create new folder for your EB
@@ -23,7 +23,7 @@ To install EB CLI to your computer for Window, macOS, Linux, or virtualenv, clic
   - To start application, use command
 
     ```$ eb init```
-
+<br>
 ### Region selection
 Fist you have to select the Region. Terminal will show the following lines in your command line:
 
@@ -48,7 +48,7 @@ Fist you have to select the Region. Terminal will show the following lines in yo
 ```
 
 You can select one Region by writing it's number into console, and hit enter... or just hit enter for default if it's good for you.
-
+<br>
 ### Add Access key ID, and Secret access key
 Terminal will ask for your access key, and secret access key. 
 You can type manually, or use the "Shift+Ins" paste the code.
@@ -60,7 +60,7 @@ You must provide your credentials.
 ```
 
 **NOTE:   If you want to reset credentials or set new user, log into aws console in browser, go to users menu and security credentials tab, and make it inactive or delete the actual one, create new access key with secret access key. Typing $ eb init will ask for it again. (In some cases you'll have to reenter the code if terminal does not ask for it.)**
-
+<br>
 ### Set application name
 It's necessary to name your application. 
 It will have a default name based on your folder name. 
@@ -93,7 +93,7 @@ Select a platform.
 ```
 
 ...for docker project, type: 7
-
+<br>
 
 #### [OPTIONAL] Set up SSH
 Now you can choose to set up SSH for your instances.
@@ -104,7 +104,7 @@ Do you want to set up SSH for your instances?
 ```
 
 Select option of your choice. If you hit enter, by default it will mark it as "Yes" because of capital letter.
-
+<br>
 ## Deploy your application
 Run your own program, or choose example application
 Before deploy application you need to copy all files, and folder into the created folder. If you dont have any, then the process will use the basic application provided by AWS.
@@ -113,7 +113,7 @@ Before deploy application you need to copy all files, and folder into the create
 You can do it simply by typeing in the following code into console.
 
 ```$ eb create```
-
+<br>
 ### Enter enviroment name
 You need to give a name to your application. 
 It has a default name, but you can set it, as long there is no other application that is useing the same name. It will look like this:
@@ -123,7 +123,7 @@ It has a default name, but you can set it, as long there is no other application
 ```
 
 You can just hit enter for default selection.
-
+<br>
 ### Choose DNC Cname
 You need to give a URL to your application. It has a default URL, but it can be changed of choice. Terminal will show you:
 
@@ -133,7 +133,7 @@ Enter DNS CNAME prefix
 ```
 
 You can just hit enter for default selection.
-
+<br>
 ### Choose balancer type
 Now you need to select the load balancer. For basic server I reccomend "network", but default is also fine. Type the number of the selected balancer, or hit enter for default.
 
@@ -144,7 +144,7 @@ Now you need to select the load balancer. For basic server I reccomend "network"
 3) network
 (default is 1)
 ```
-
+<br>
 ## Finish
 If everthing went as we planned, it will take a few minutes to set up the whole thing. It is totally fine to wait 5-10 minutes. In the end console will show us the following message:
 
