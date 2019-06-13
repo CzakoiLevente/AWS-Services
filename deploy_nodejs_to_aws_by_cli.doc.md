@@ -54,7 +54,9 @@ Fist you have to select the Region. Terminal will show the following lines in yo
 ```
 
 You can select one Region by writing it's number into console, and hit enter... or just hit enter for default if it's good for you.
+
 <br>
+
 ### Add Access key ID, and Secret access key
 Terminal will ask for your access key, and secret access key. 
 You can type manually, or use the "Shift+Ins" paste the code.
