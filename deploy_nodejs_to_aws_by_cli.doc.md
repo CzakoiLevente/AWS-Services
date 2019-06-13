@@ -115,7 +115,9 @@ Do you want to set up SSH for your instances?
 ```
 
 Select option of your choice. If you hit enter, by default it will mark it as "Yes" because of capital letter.
+
 <br>
+
 ## Deploy your application
 Run your own program, or choose example application
 Before deploy application you need to copy all files, and folder into the created folder. If you dont have any, then the process will use the basic application provided by AWS.
