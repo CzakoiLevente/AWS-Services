@@ -31,7 +31,7 @@ Here you can see your list of buckets.
 
 Hit button "+ Create bucket" (pops a new window)
 
-1. Name and Region
+**1. Name and Region**
 
 Type bucket name
 
@@ -39,12 +39,16 @@ Select Region
 
 Hit button "Next" (bottom rigth corner)
 
-2. Configure options
+<br>
+
+**2. Configure options**
 
 If you dont need specific setup, you can hit button "Next" (bottom rigth corner).
 
+<br>
 
-3. Set permissions
+
+**3. Set permissions**
 
 Your new bucket will be private by default, so the static html will not be accessible by others.
 
@@ -52,13 +56,18 @@ To make it public untick all 4 options.
 
 Hit button "Next" (bottom rigth corner)
 
-4. Review
+<br>
+
+**4. Review**
 
 Hit button "Next" (bottom rigth corner)
 
 Your new bucket is ready.
 
 The window will disappear and the page will redirect you to bucket list.
+
+
+<br>
 
 
 ### Upload file to bucket
@@ -89,6 +98,7 @@ You can check your setup, then hit button "Upload".
 
 Now your file is uploaded to your bucket, and the page will show the bucket content with your file.
 
+<br>
 
 ### One last setting
 
@@ -110,7 +120,3 @@ Tick in the option: "Use this bucket to host a website."
 Hit button "Save".
 
 Now you have an uploaded static website in your bucket and can paste it's URL where you need.
-
-
-
-
