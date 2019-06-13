@@ -15,27 +15,23 @@ For more info, please visit [this sie](https://docs.aws.amazon.com/AmazonS3/late
 
 <br>
 
-
 ## Create bucket for sevring static file
 
-Log into AWS console
+Steps:
 
-It should display the AWS Management Console "dashboard".
-
-Type in the searchbar:
-
-```s3```
-
-hit Enter
+  - Log into AWS console
+  - It should display the AWS Management Console "dashboard".
+  - Type in the searchbar: ` s3 `
+  - hit `Enter`
 
 On the left side it should display "Amazon S3"
-
 Here you can see your list of buckets.
 
+**Hit button "+ Create bucket" (pops a new window)**
 
-### To create bucket
+<br>
 
-Hit button "+ Create bucket" (pops a new window)
+### Set up
 
 **1. Name and Region**
 
@@ -52,7 +48,6 @@ Hit button "Next" (bottom rigth corner)
 If you dont need specific setup, you can hit button "Next" (bottom rigth corner).
 
 <br>
-
 
 **3. Set permissions**
 
@@ -81,26 +76,22 @@ The window will disappear and the page will redirect you to bucket list.
 Click on the bucket you wish to upload your html to.
 
 To upload file hit button "Upload".
+A new window will pop up.
 
-New window will pop up.
+**Steps:**
 
-1. Seelect files
-
-You can drag and drop the file or just click on button "Add files".
-
-Hit button "Next".
+1. Select files
+ - You can drag and drop the file or just click on button "Add files".
+ - Hit button "Next".
 
 2.  Set permissions
-
-You can set up permissions, then hit button "Next".
+ - You can set up permissions, then hit button "Next".
 
 3. Set properties
-
-You can set which storage class, encryption and tag you want to use for your html file, then hit button "Next".
+ - You can set which storage class, encryption and tag you want to use for your html file, then hit button "Next".
 
 4. Review
-
-You can check your setup, then hit button "Upload".
+ - You can check your setup, then hit button "Upload".
 
 Now your file is uploaded to your bucket, and the page will show the bucket content with your file.
 
