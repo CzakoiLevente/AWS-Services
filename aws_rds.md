@@ -1,4 +1,4 @@
-# HOW TO CREATE MySQL DATABASE USING AWS RDS (free service)
+# How to create MySQL DB using AWS RDS (free service)
 
 <br>
 
