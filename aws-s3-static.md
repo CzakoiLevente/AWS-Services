@@ -37,15 +37,15 @@ Here you can see your list of buckets.
 
 Type bucket name
 
-Select Region
+Select `Region`
 
-Hit button "Next" (bottom rigth corner)
+Hit button `Next` (bottom rigth corner)
 
 <br>
 
 **2. Configure options**
 
-If you dont need specific setup, you can hit button "Next" (bottom rigth corner).
+If you dont need specific setup, you can hit button `Next`.
 
 <br>
 
@@ -55,13 +55,13 @@ Your new bucket will be private by default, so the static html will not be acces
 
 To make it public untick all 4 options.
 
-Hit button "Next" (bottom rigth corner)
+Hit button `Next`.
 
 <br>
 
 **4. Review**
 
-Hit button "Next" (bottom rigth corner)
+Hit button `Next`.
 
 Your new bucket is ready.
 
@@ -74,24 +74,24 @@ The window will disappear and the page will redirect you to bucket list.
 
 Click on the bucket you wish to upload your html to.
 
-To upload file hit button "Upload".
+To upload file hit button `Upload`.
 A new window will pop up.
 
 
 **Steps:**
 
 1. Select files
- - You can drag and drop the file or just click on button "Add files".
- - Hit button "Next".
+ - You can drag and drop the file or just click on button `Add files`.
+ - Hit button `Next`.
 
 2.  Set permissions
- - You can set up permissions, then hit button "Next".
+ - You can set up permissions, then hit button `Next`.
 
 3. Set properties
- - You can set which storage class, encryption and tag you want to use for your html file, then hit button "Next".
+ - You can set which storage class, encryption and tag you want to use for your html file, then hit button `Next`.
 
 4. Review
- - You can check your setup, then hit button "Upload".
+ - You can check your setup, then hit button `Upload`.
 
 Now your file is uploaded to your bucket, and the page will show the bucket content with your file.
 
@@ -106,7 +106,7 @@ Watching the bucket content you can see 4 tabs:
   - Permissions
   - Management
 
-Now go to tab: Properties.
+Now go to tab: `Properties`.
 
  - Select square named: `Static website hosting`.
  - Tick in the option: `Use this bucket to host a website.`
