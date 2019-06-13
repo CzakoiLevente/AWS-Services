@@ -52,13 +52,11 @@ you should see something like this:
 
 <img src="assets/aws-specify.db-details.png">
 
-if you need more specified setting, set it.
+if you need more specified settings, you can select and set them.
 
 <br>
 
-Scroll down for "Settings pane".
-
-Set: 
+Scroll down for "Settings pane" and set: 
 
  - DB instance identifier
  - Master username
