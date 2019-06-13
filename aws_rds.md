@@ -13,26 +13,24 @@
 ## Create database
 
    - Login to AWS Console
-   - It should display the AWS Management Console "dashboard".
-   - Type in the searchfield "Find Services":  
-``` rds ```
-
-   - hit "Enter".
+   - It should display the AWS Management Console Dashboard.
+   - Type in the searchfield `Find Services`: ``` rds ```
+   - hit `Enter`.
 
 <br>
 
-It will redirect to RDS Dashboard, you should see "Amazon RDS" on the left.
+It will redirect to RDS Dashboard, you should see `Amazon RDS` on the left.
 
 <br>
 
 1. **RDS Dashboard**
 
-If this is the first time to create database, you can just hit button "Create database"...
+If this is the first time to create database, you can just hit button `Create database`...
 
 <img src="assets/aws-rds-create.png">
 
 
-...or go to menupoint: "Databases" and find button "Create database" in the top right corner.
+...or go to menupoint: `Databases` and find button `Create database` in the top right corner.
 
 <br>
 
@@ -44,7 +42,7 @@ Now you should see the databases listed in squares.
    <img src="assets/aws-rds-free-use.png">
 
    - Select MySQL.
-   - Hit "Next".
+   - Hit `Next`.
 
 <br>
 
@@ -55,17 +53,18 @@ you should see something like this:
 <img src="assets/aws-specify.db-details.png">
 
 if you need more specified setting, set it.
+
 <br>
 
 Scroll down for "Settings pane".
 
-Set 
+Set: 
 
  - DB instance identifier
  - Master username
  - Master password (requires confirmation)
 
-...hit button "Next".
+...hit button `Next`.
 
 <br>
 
@@ -85,7 +84,7 @@ Set name, port of your database...
 
 **...the rest of the settings can be left as default.**
 
-Hit button "Create database" on the bottom of the page.
+Hit button `Create database` on the bottom of the page.
 
 Upon success, you should see something like this:
 
@@ -108,7 +107,7 @@ Type:
 $ mysql -h mysql–test-instance1.123456789012.us-east-1.rds.amazonaws.com -P 3306 -u mymasteruser -p
 ```
 
-if success, you should see:
+if succeded, you should see:
 
 ```
 Welcome to the MySQL monitor.  Commands end with ; or \g.
