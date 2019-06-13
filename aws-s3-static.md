@@ -101,10 +101,10 @@ Now your file is uploaded to your bucket, and the page will show the bucket cont
 
 Watching the bucket content you can see 4 tabs: 
 
-Overview
-Properties
-Permissions
-Management
+  - Overview
+  - Properties
+  - Permissions
+  - Management
 
 Now go to tab: Properties.
 
