@@ -108,12 +108,11 @@ Watching the bucket content you can see 4 tabs:
 
 Now go to tab: Properties.
 
-Select square named: "Static website hosting".
-
-Tick in the option: "Use this bucket to host a website."
+ - Select square named: `Static website hosting`.
+ - Tick in the option: `Use this bucket to host a website.`
 
 **To get the link where your html is reachable from outside look on top of this window. (Endpoint:)**
 
-Hit button "Save".
+Hit button `Save`.
 
-Now you have an uploaded static website in your bucket and can paste it's URL where you need.
+**Now you have an uploaded static website in your bucket and can paste it's URL where you need.**
