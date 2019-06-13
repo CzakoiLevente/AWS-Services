@@ -1,11 +1,8 @@
-# HOW TO CREATE MySQL DATABASE USING AWS RDS
-
-(free service)
+# HOW TO CREATE MySQL DATABASE USING AWS RDS (free service)
 
 <br>
 
 ### Prerequisites
-
   - AWS account
 
 <br>
@@ -16,8 +13,6 @@
    - It should display the AWS Management Console Dashboard.
    - Type in the searchfield `Find Services`: ``` rds ```
    - hit `Enter`.
-
-<br>
 
 It will redirect to RDS Dashboard, you should see `Amazon RDS` on the left.
 
