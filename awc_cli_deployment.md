@@ -28,7 +28,7 @@ To install EB CLI to your computer for Window, macOS, Linux, or virtualenv, clic
 
 Fist you have to select the Region. Terminal will show the following lines in your command line:
 
-```
+```javascript
 Select a default region
 1) us-east-1 : US East (N. Virginia)
 2) us-west-1 : US West (N. California)
@@ -74,7 +74,7 @@ It's necessary to name your application.
 It will have a default name based on your folder name. If you want you can change it to anything you want, as long as it's no used by someone else.
 If you want to choose default, just hit enter.
 
-```
+```javascript
 Enter Application Name
 (default is "aws_with_docker"): 
 Application aws_with_docker has been created.
@@ -85,7 +85,7 @@ Application aws_with_docker has been created.
 
 Next you need to select what kind of platfrom do you want to run on AWS EB. A list of choice will appear in console, and you have to choose from it, as you did in the Region selection...
 
-```
+```javascript
 Select a platform.
 1) Node.js
 2) PHP
@@ -150,7 +150,7 @@ You need to give a URL to your application. It has a default URL, but it can be 
 
 ```
 Enter DNS CNAME prefix
-(default is sample-app-dev): 
+(default is sample-app-dev) 
 ```
 You can just hit enter for default selection.
 
@@ -159,7 +159,7 @@ You can just hit enter for default selection.
 
 Now you need to select the load balancer. For basic server I reccomend "network", but default is also fine. Type the number of the selected balancer, or hit enter for default.
 
-```
+```javascript
 Select a load balancer type
 1) classic
 2) application
@@ -172,7 +172,7 @@ Select a load balancer type
 
 If everthing went as we planned, it will take a few minutes to set up the whole thing. It is totally fine to wait 5-10 minutes. In the end console will show us the following message:
 
-```
+```javascript
 INFO: Successfully Launched Environment:...
 ```
 
