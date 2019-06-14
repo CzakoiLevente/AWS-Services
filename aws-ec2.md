@@ -138,7 +138,6 @@ Open terminal, enter the following command:
 
 ```
 $ ssh -i /path_to_key/my_key.pem user_name@public_dns_name
-
 ```
 
 **Note:** Since a Linux instance was created the user name is 'ec2-user'. You can check the public DNS name of your instance on the AWS Console page after creating the instance. 
